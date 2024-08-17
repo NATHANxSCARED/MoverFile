@@ -40,7 +40,7 @@ public class FileRenamer {
         String fileName = file.getName();
         int lastIndexOf = fileName.lastIndexOf(".");
         if (lastIndexOf == -1) {
-            return ""; // Si le fichier n'a pas d'extension
+            return ""; 
         }
         return fileName.substring(lastIndexOf);
     }
